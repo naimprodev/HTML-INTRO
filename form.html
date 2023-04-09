@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pitha form</title>
+    <link rel="stylesheet" href="style/nav.css">
+    <style>
+        label{
+            display: block;
+            margin-bottom:10px ;
+            margin-top: 3px;
+            
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h2>My salary sheet</h2>
+        <nav>
+            <ul>
+                <li><a href="">home</a></li>
+                <li><a href="table.html">table</a></li>
+                <li><a href="semantic.html">semantic</a></li>
+                <li><a href="audio-video.html">audio</a></li>
+            </ul>
+        </nav>    
+    </header>
+    <h2>welcome to jamal er ma pitha ghor</h2>
+    <form>
+        <label for="name">Your name
+            <input id="name"  type="text" placeholder="your name">
+        </label>
+        
+        <label for="email">Your email
+            <input id="email" type="text" placeholder="your email">
+        <label for="password">Your password
+            <input id="password" type="password" placeholder="your password">
+        </label>
+        <fieldset>
+            <legend>pick one pitha</legend>
+            <label for="pitha">
+                <input type="radio" name="pitha" id="chitoy">
+                Chitoy
+            </label>
+            <label for="pitha">
+                <input type="radio" name="pitha" id="vapa">
+                Vapa
+            </label>
+            <label for="pitha">
+                <input type="radio" name="pitha" id="puri">
+                Puri
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>one or more pitha you can select</legend>
+            <label for="vortas">
+                <input type="checkbox" name="vortas" id="sorisa">
+                Sorisa vorta
+            <label for="vortas">
+                <input type="checkbox" name="vortas" id="Alu vorta">
+                Alu vorta
+            <label for="vortas">
+                <input type="checkbox" name="vortas" id="Dal vorta">
+                Dal vorta
+            <label for="vortas">
+                <input type="checkbox" name="vortas" id="Begun vorta">
+                Begun vorta
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>description</legend>
+            <textarea name="" id="" cols="60" rows="3"></textarea>
+        </fieldset>
+        <input type="reset" value="cancle">
+        <input type="submit" value="done">    
+    </form>
+</body>
+</html>
